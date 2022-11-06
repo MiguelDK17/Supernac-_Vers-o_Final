@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFA500"
+    tools:context=".Hortifruti">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#0000FF"
+            android:text="Hortifrutti"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdBatata"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tvIphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Batata Comum"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvBatataNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvIphone"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Saco de 10KG"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtBatata"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvBatataNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="34.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvBatataPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvBatataNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/batata_comum" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdAlface"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Abbey_Road"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Alface Crespa un"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAlfaceNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Abbey_Road"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="13.3 Polegadas"
+                        android:textColor="#fff"
+                        android:visibility="invisible" />
+
+
+                    <TextView
+                        android:id="@+id/edtAlface"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvAlfaceNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="3.00"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvMacBookPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvAlfaceNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/alface" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdMamão"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Sgt_Peppers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Mamão Papaya un"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRoteadorNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Sgt_Peppers"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Wifi Smart Stream 802.11ax"
+                        android:textColor="#fff"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/edtMamão"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvRoteadorNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="4.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvMamãoPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvRoteadorNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/mam_o_papaya" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdCouve"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Couve"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Couve Flor"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCouveNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Couve"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Wifi Smart Stream 802.11ax"
+                        android:textColor="#fff"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/edtCouve"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvCouveNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="0.95"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvCouvePreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvCouveNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_00015___2000130000008___couve_chinesa" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdMaçã"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Maçã"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Maçã Gala"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvMaçãNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Maçã"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="unidade"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtMaçã"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvMaçãNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="2.69"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvMaçãPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvMaçãNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_00173_maca_gala_importada_unidade" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdTomate"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Tomate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Tomate Indiano"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvTomateNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Tomate"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="unidade"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtTomate"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvTomateNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="1.03"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvTomatePreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvTomateNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_00390_tomate_italiano_unidade" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdUva"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Uva"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Uva sem sementes"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvUvaNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Uva"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="unidade"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/edtUva"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvUvaNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="7.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvUvaPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvUvaNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_52793_uva_preta_sem_semente_hnt" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdBanana"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Banana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Banana Nanica"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvBananaNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Banana"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="unidade"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtBanana"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvBananaNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="1.69"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvBananaPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvBananaNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_00063_banana_nanica_unidade" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdMorango"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Morango"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Morango Orgânico"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvMorangoNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Morango"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Bandeja"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/edtMorango"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvMorangoNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="12.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvMorangoPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvMorangoNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_11040_morango_organico_250g_bandeja" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdCheiro"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Cheiro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Cheiro Verde"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCheiroNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Cheiro"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="unidade"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/edtCheiro"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvCheiroNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="3.49"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvCheiroPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvCheiroNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        app:srcCompat="@drawable/_01027___2001180000000___cheiro_verde" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvescondido4"
+                android:visibility="invisible"/>
+            <EditText
+                android:id="@+id/edtTotalhortifruti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

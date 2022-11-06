@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alimentos"
+    android:background="#FFA500"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="Alimentos"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdDoritos"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/tvDoritos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Doritos"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDoritosNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvDoritos"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="400G"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtDoritos"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDoritosNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="4.85"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvDoritosPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvDoritosNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/doritos" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdLinguiça"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Abbey_Road"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Linguiça Perdigão"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLinguiçaNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Abbey_Road"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1K a unidade"
+                    android:textColor="#fff" />
+
+
+                <TextView
+                    android:id="@+id/edtLinguiça"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvLinguiçaNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="19.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvLinguiçaPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvLinguiçaNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/lingui_a_perdig_o" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdLombo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Lombo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Lombo de Porco"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLomboNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Lombo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1KG a unidade"
+                    android:textColor="#fff"/>
+
+                <TextView
+                    android:id="@+id/edtLombo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvLomboNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="23.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMamãoPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvLomboNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/lombo_de_porco" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdLombolombo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/paodecheese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pão de Queijo"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPaodeCheese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paodecheese"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1KG a unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtpaodecheese"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPaodeCheese"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="32.00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPaodeChese"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPaodeCheese"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/pao_de_cheese" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdBacon"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/bacon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bacon"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBacon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bacon"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1KG a unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtbacon"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBacon"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="18.80"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvBaconn"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBacon"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/bacon" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdFeijao"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/feijao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Feijão Camil"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFeijao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/feijao"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1KG a unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtfejao"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFeijao"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="8.50"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvFeijaoo"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvFeijao"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/feijao" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdArroz"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/arroz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Arroz Sepe"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvArroz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/arroz"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="5KG a unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtarroz"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvArroz"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="17.90"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvArrozz"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvArroz"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/arroz" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdOvo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/ovo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ovos Brancos"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOvo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ovo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Pente 30 ovos"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtovo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvOvo"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="21.50"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvOvoo"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvOvo"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/ovos" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdMacarrao"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/macarrao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Macarrão Vilma"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMacarrao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/macarrao"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="500G a Unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtMacarrao"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvMacarrao"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="5.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMacarraoo"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvMacarrao"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/macarrao" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdAcucar"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/acucar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Açucar Delta"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAcucar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/acucar"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="5KG a Unidade"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtAcucar"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAcucar"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="12.69"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvAcucarr"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvAcucar"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/images" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvescondido3"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/edtTotalAlimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</ScrollView>
+
+

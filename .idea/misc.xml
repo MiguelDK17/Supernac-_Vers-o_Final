@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/drawable/buttonshape.xml" value="0.231" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_alimentos.xml" value="0.17255434782608695" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_casa.xml" value="0.1" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_categoria.xml" value="0.25" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_eletronicos_carrinho.xml" value="0.27385892116182575" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_main_2.xml" value="0.25" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_padaria.xml" value="0.1" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/toolbar.xml" value="0.33" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/menu/main_menu.xml" value="0.53875" />
+        <entry key="..\:/xampp/htdocs/Supernac Android todas as versões_2/Supernac Android todas as versões/Supernac Android todas as versões/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/menu/menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_alimentos.xml" value="0.18489583333333334" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_casa.xml" value="0.1" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_categoria.xml" value="0.2222222222222222" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_finalizando_compras.xml" value="0.1" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/activity_padaria.xml" value="0.1111111111111111" />
+        <entry key="..\:/xampp/htdocs/Supernac_Android/AndroidStudioProjects/Versão Let It Be/Oficial/Supernac Online/app/src/main/res/layout/tela_2.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

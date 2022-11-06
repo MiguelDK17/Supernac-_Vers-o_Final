@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    tools:context=".Padaria"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="Padaria"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPaoAlho"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/tvPaoAlho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pão de Alho"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPaoAlhoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPaoAlho"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Tradicional Aurora 340g"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtPaoAlho"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPaoAlhoNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="2.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvBatataPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPaoAlhoNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/p_o_de_alho_tardicional_aurora" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPaoCoco"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Abbey_Road"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pão de Coco"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPaoCocoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Abbey_Road"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Seven Boys Pacote"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/edtPaoCoco"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPaoCocoNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="6.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMacBookPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPaoCocoNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/pao_de_coco_seven_boys" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdBolo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Sgt_Peppers"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bolo Santa Edwiges"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBoloNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Sgt_Peppers"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Chocolate e Cenoura"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtBolo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBoloNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="3.89"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPS4SPIDERMANPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBoloNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/bolo_cenoura_chocolate_santa_edwiges" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdCiabatta"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Ciabatta"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ciabatta"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCiabattaNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Ciabatta"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Calabresa"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtCiabatta"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCiabattaNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="17.35"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvCiabattaPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvCiabattaNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                   app:srcCompat="@drawable/ciabatta_calabresa" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdbandeja"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/bandejapaes"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bandeja com Vinho"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvbandejaNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bandejapaes"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Pães e Frios"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtbandejapaes"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvbandejapaesNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="319.90"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvbandejapaesPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvbandejapaesNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/_101156__bandeja_com_t_bua_de_frios__p_es_e_vinho" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdTorta"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Torta"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Torta de Aniversário"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTortaNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Sgt_Peppers"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="unidade"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtTorta"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTortaNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="159.90"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvTortaPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvTortaNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/torta_colors_m_s_anivers_rio__12_cm___serve_8_pessoas__oreo__1__suspiro_de_cora__o___amarela_" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdLimao"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Limao"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Torta de Limão"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvLimaoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Limao"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="unidade"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtLimao"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvLimaoNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="42.90"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvLimaoPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvLimaoNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/torta_de_lim_o" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPais"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Pais"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bandeja Dia dos Pais"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPaisNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pais"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="serve duas pessoas"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtPais"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPaisNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="319.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPaisPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPaisNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/_104162__bandeja_de_caf__da_manh__dia_dos_pais_fam_lia" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPresunto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Presunto"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Presunto Fatiado"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPresuntoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Presunto"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Bandeja de 10G"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtPresunto"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPresuntoNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="3.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPresuntoPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPresuntoNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/_100293__presunto_fatiado_sadia_bandeja_de_100g" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPesto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Pesto"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Pão Pesto"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPestoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Pesto"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Com Nozes"
+                    android:textColor="#fff"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/edtPesto"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPestoNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="19.19"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPestoPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPestoNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    app:srcCompat="@drawable/p_o_pesto_com_nozes_" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvescondido5"/>
+        <EditText
+            android:id="@+id/edttotalpadaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
