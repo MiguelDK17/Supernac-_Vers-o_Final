@@ -34,8 +34,18 @@ class MainActivity : AppCompatActivity() {
             override fun onClick(v: View) {
                 usuario = binding.edtUsuario.text.toString()
                 senha = binding.edtSenha.text.toString()
+                if (binding.edtUsuario.text.toString().equals("")){
+                    Toast.makeText(
+                        applicationContext, "Ops os campos não podem ficar vazios", Toast.LENGTH_SHORT
+                    ).show()
+                }
+                else if (binding.edtSenha.text.toString().equals("")){
+                    Toast.makeText(
+                        applicationContext, "Ops os campos não podem ficar vazios", Toast.LENGTH_SHORT
+                    ).show()
+                }
 
-                if (binding.edtUsuario.text.equals("") && binding.edtSenha.text.equals("")) {
+                else if (binding.edtUsuario.text.toString().equals("") && binding.edtSenha.text.toString().equals("")) {
                     Toast.makeText(
                         applicationContext, "Ops os campos não podem ficar vazios", Toast.LENGTH_SHORT
                     ).show()

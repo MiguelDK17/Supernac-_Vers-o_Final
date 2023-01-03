@@ -17,7 +17,6 @@ public class categoria extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categoria);
-        getSupportActionBar().hide();
         Jogos = (CardView) findViewById(R.id.crdJogos);
         Eletronicos = (CardView) findViewById(R.id.crdEletronicos);
         Alimentos = (CardView) findViewById(R.id.crdAlimentos);

@@ -14,10 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         android:usesCleartextTraffic="true"
-        tools:replace="android:label">
-        <activity android:name=".Let_It_Be"
-            android:exported="false"/>
-        <activity
+        tools:replace="android:label"
+        tools:ignore="UnusedAttribute">
+       <activity
             android:name=".Criar_Conta"
             android:exported="false">
             <meta-data
@@ -53,6 +52,7 @@
             android:exported="false" />
         <activity
             android:name=".alimentos"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".categoria"

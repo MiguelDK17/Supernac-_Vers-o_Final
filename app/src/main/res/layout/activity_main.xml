@@ -124,6 +124,7 @@
             android:layout_marginTop="70dp"
             android:backgroundTint="@color/azul_escuro_supernac"
             android:text="ENTRAR"
+             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.464"
